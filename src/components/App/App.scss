@@ -1,0 +1,33 @@
+@import '../Share/_base.scss';
+
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  font-style: normal;
+  line-height: 36px;
+  color: #2F527B;
+}
+
+ul {
+  list-style-type: none;
+}

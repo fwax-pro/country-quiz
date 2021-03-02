@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;0,800;1,700&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+// @import '~material-design-icons/iconfont/material-icons.css';
+
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    // background-color: #5156A1;
+    background-image: url('../../background.png');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+  
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+}
+  
