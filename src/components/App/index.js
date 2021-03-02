@@ -140,7 +140,7 @@ class App extends Component  {
   }
 
   getRandCountry(countries) {
-    const numberRand = this.getRandomInt(0, countries.length);
+    const numberRand = this.getRandomInt(0, countries.length-1);
 
     return countries[numberRand];
   }
