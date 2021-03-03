@@ -15,7 +15,7 @@ const Result = ({
             </div>
             <div className="body">
                 <h2>Results</h2>
-                <p>You got <span className="points">{points}</span> correct answers</p>
+                <p>You got <span className="points">{points}</span> correct answer{points > 1 ? 's' : ''}</p>
             </div>
             <div className="footer">
                 <Button onClick={onNewGame} title="Try again" className="btn btn__outline btn__try_again" />

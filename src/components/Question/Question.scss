@@ -1,5 +1,5 @@
 .question {
-    margin-bottom: 32px;
+    margin-bottom: 15px;
 
     .img-responsive {
         width: 50%;
@@ -11,5 +11,19 @@
         width: 84px;
         height: 54px;
         display: flex;
+    }
+}
+
+@media(max-width: 640px) {
+    .question {
+        .img {
+            width: 42px;
+            height: 32px;
+        }
+
+        h2 {
+            font-size: 13px;
+            line-height: 20px;
+        }
     }
 }

@@ -61,6 +61,41 @@
     .result {
         .quiz-container {
             padding: 0;
+            background-color: white;
+            border-radius: 12px;
+            padding: 30px 15px 30px 15px;
+            width: 232px;
+            height: 285px;
+
+            .header {
+                margin-bottom: 0;
+                
+                img {
+                    width: 160px;
+                }
+            }
+
+            .body {
+                h2 {
+                    font-size: 32px;
+                    line-height: 30px;
+                }
+    
+                p {
+                    font-size: 14px;
+                }
+
+                .points {
+                    font-size: 28px;
+                }
+            }
+
+            .footer {
+                .btn {
+                    padding: 10px 36px 10px 37px;
+                    margin-bottom: 20px;
+                }
+            }
         }
     }
 }

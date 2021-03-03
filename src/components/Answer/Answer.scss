@@ -52,7 +52,10 @@
 
 @media(max-width: 640px) {
     .answer-item > button {
-        font-size: 16px;
-        line-height: 14px;
+        font-size: 11px;
+        line-height: 10px;
+        height: 30px;
+        margin-bottom: 10px;
+        border-radius: 9px;
     }
 }
